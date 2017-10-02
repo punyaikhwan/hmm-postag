@@ -1,0 +1,63 @@
+# sent_id = dev-s1
+# text = Ahli rekayasa optik mendesain komponen dari instrumen optik seperti lensa, mikroskop, teleskop, dan peralatan lainnya yang mendukung sifat cahaya.
+1	Ahli	_	PROPN	_	_	4	nsubj	_	_
+2	rekayasa	_	NOUN	_	_	1	compound	_	_
+3	optik	_	NOUN	_	_	2	compound	_	_
+4	mendesain	_	VERB	_	_	0	root	_	_
+5	komponen	_	NOUN	_	_	4	obj	_	_
+6	dari	_	ADP	_	_	7	case	_	_
+7	instrumen	_	NOUN	_	_	4	obl	_	_
+8	optik	_	ADJ	_	_	7	amod	_	_
+9	seperti	_	ADP	_	_	10	case	_	_
+10	lensa	_	NOUN	_	_	4	obl	_	SpaceAfter=No
+11	,	_	PUNCT	_	_	12	punct	_	_
+12	mikroskop	_	NOUN	_	_	10	conj	_	SpaceAfter=No
+13	,	_	PUNCT	_	_	14	punct	_	_
+14	teleskop	_	NOUN	_	_	10	conj	_	SpaceAfter=No
+15	,	_	PUNCT	_	_	17	punct	_	_
+16	dan	_	CCONJ	_	_	17	cc	_	_
+17	peralatan	_	NOUN	_	_	10	conj	_	_
+18	lainnya	_	ADJ	_	_	17	amod	_	_
+19	yang	_	PRON	_	_	20	nsubj	_	_
+20	mendukung	_	VERB	_	_	17	acl	_	_
+21	sifat	_	NOUN	_	_	20	obj	_	_
+22	cahaya	_	NOUN	_	_	21	compound	_	SpaceAfter=No
+23	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = dev-s2
+# text = Wisma Kalla terletak di kota makassar, tak jauh dari pantai Losari Makassar, dengat dengan lapangan Karebosi Makassar, dekat dengan Mal Ratu Indah, dan dekat juga dengan kawasan Trans Studio Makassar.
+1	Wisma	_	PROPN	_	_	3	nsubj	_	_
+2	Kalla	_	PROPN	_	_	1	flat	_	_
+3	terletak	_	VERB	_	_	0	root	_	_
+4	di	_	ADP	_	_	5	case	_	_
+5	kota	_	NOUN	_	_	3	obl	_	_
+6	makassar	_	ADJ	_	_	5	amod	_	SpaceAfter=No
+7	,	_	PUNCT	_	_	28	punct	_	_
+8	tak	_	ADV	_	Polarity=Neg	9	advmod	_	_
+9	jauh	_	ADJ	_	_	3	amod	_	_
+10	dari	_	ADP	_	_	11	case	_	_
+11	pantai	_	NOUN	_	_	9	nmod	_	_
+12	Losari	_	PROPN	_	_	11	flat	_	_
+13	Makassar	_	PROPN	_	_	12	flat	_	SpaceAfter=No
+14	,	_	PUNCT	_	_	28	punct	_	_
+15	dengat	_	ADJ	_	_	3	amod	_	_
+16	dengan	_	ADP	_	_	17	case	_	_
+17	lapangan	_	NOUN	_	_	15	nmod	_	_
+18	Karebosi	_	PROPN	_	_	17	flat	_	_
+19	Makassar	_	PROPN	_	_	18	flat	_	SpaceAfter=No
+20	,	_	PUNCT	_	_	18	punct	_	_
+21	dekat	_	ADJ	_	_	3	amod	_	_
+22	dengan	_	ADP	_	_	23	case	_	_
+23	Mal	_	PROPN	_	_	21	nmod	_	_
+24	Ratu	_	PROPN	_	_	23	flat	_	_
+25	Indah	_	PROPN	_	_	24	flat	_	SpaceAfter=No
+26	,	_	PUNCT	_	_	28	punct	_	_
+27	dan	_	CCONJ	_	_	28	cc	_	_
+28	dekat	_	ADJ	_	_	3	conj	_	_
+29	juga	_	ADV	_	_	28	advmod	_	_
+30	dengan	_	ADP	_	_	31	case	_	_
+31	kawasan	_	NOUN	_	_	29	nmod	_	_
+32	Trans	_	PROPN	_	_	31	flat	_	_
+33	Studio	_	PROPN	_	_	32	flat	_	_
+34	Makassar	_	PROPN	_	_	33	flat	_	SpaceAfter=No
+35	.	_	PUNCT	_	_	3	punct	_	_
